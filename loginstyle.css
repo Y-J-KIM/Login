@@ -180,8 +180,20 @@ header {
   text-decoration: underline;
 }
 
-@media screen and (max-width: 981px) {
+@media screen and (max-width: 412px) {
+  header {
+    padding: 35px 10% 60px;
+  }
+
   .bx-icon {
+    display: none;
+  }
+
+  .wrapper {
+    width: 300px;
+  }
+
+  .menu {
     display: none;
   }
 }
