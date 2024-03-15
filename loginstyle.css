@@ -198,6 +198,7 @@ form {
   text-decoration: underline;
 }
 
+<<<<<<< HEAD
 footer {
   background-color: rgb(255, 255, 255);
   font-family: "Noto Sans KR", sans-serif;
@@ -237,12 +238,28 @@ ul {
 }
 
 @media screen and (max-width: 981px) {
+=======
+@media screen and (max-width: 412px) {
+  header {
+    padding: 35px 10% 60px;
+  }
+
+>>>>>>> 33a6ed2c16bcd456f0c87b4c86a8d1bd4d74dffb
   .bx-icon {
     display: none;
   }
 
+<<<<<<< HEAD
   .text2,
   .text3 {
     visibility: hidden;
+=======
+  .wrapper {
+    width: 300px;
+  }
+
+  .menu {
+    display: none;
+>>>>>>> 33a6ed2c16bcd456f0c87b4c86a8d1bd4d74dffb
   }
 }
